@@ -27,7 +27,7 @@ suricata-log-management-and-automation/
 │   └── cron_output.log               # Keeps log of cron actions
 ├── logrotate/
 │   └── suricata-evejson              # Logrotate config for eve.json            
-    └── suricata-faststats            # Logrotate config for fast.log and stats.log
+|   └── suricata-faststats            # Logrotate config for fast.log and stats.log
 ├── crontab.txt                       # Crontab entry for daily automation
 ├── README.md                         # Project documentation (this file)
 ```
