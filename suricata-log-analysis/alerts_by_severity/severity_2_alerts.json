@@ -1,0 +1,1958 @@
+{
+  "timestamp": "2025-08-05T00:01:13.962964+0000",
+  "flow_id": 476727471426588,
+  "in_iface": "enX0",
+  "event_type": "alert",
+  "src_ip": "3.131.215.38",
+  "src_port": 42370,
+  "dest_ip": "172.31.14.166",
+  "dest_port": 8080,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2403302,
+    "rev": 101293,
+    "signature": "ET CINS Active Threat Intelligence Poor Reputation IP group 3",
+    "category": "Misc Attack",
+    "severity": 2,
+    "metadata": {
+      "affected_product": [
+        "Any"
+      ],
+      "attack_target": [
+        "Any"
+      ],
+      "created_at": [
+        "2013_10_08"
+      ],
+      "deployment": [
+        "Perimeter"
+      ],
+      "signature_severity": [
+        "Major"
+      ],
+      "tag": [
+        "CINS"
+      ],
+      "updated_at": [
+        "2025_06_26"
+      ]
+    }
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 1,
+    "pkts_toclient": 0,
+    "bytes_toserver": 74,
+    "bytes_toclient": 0,
+    "start": "2025-08-05T00:01:13.962964+0000",
+    "src_ip": "3.131.215.38",
+    "dest_ip": "172.31.14.166",
+    "src_port": 42370,
+    "dest_port": 8080
+  }
+}
+{
+  "timestamp": "2025-08-05T00:01:14.421213+0000",
+  "flow_id": 476727471426588,
+  "in_iface": "enX0",
+  "event_type": "alert",
+  "src_ip": "172.31.14.166",
+  "src_port": 8080,
+  "dest_ip": "3.131.215.38",
+  "dest_port": 42370,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 0,
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2101201,
+    "rev": 12,
+    "signature": "GPL WEB_SERVER 403 Forbidden",
+    "category": "Attempted Information Leak",
+    "severity": 2,
+    "metadata": {
+      "created_at": [
+        "2010_09_23"
+      ],
+      "signature_severity": [
+        "Unknown"
+      ],
+      "updated_at": [
+        "2024_03_08"
+      ]
+    }
+  },
+  "http": {
+    "hostname": "52.221.50.176",
+    "http_port": 8080,
+    "url": "/",
+    "http_user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126.0.0.0 Safari/537.36",
+    "http_content_type": "text/html",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 403,
+    "length": 599
+  },
+  "files": [
+    {
+      "filename": "/",
+      "gaps": false,
+      "state": "CLOSED",
+      "stored": false,
+      "size": 589,
+      "tx_id": 0
+    }
+  ],
+  "app_proto": "http",
+  "direction": "to_client",
+  "flow": {
+    "pkts_toserver": 6,
+    "pkts_toclient": 5,
+    "bytes_toserver": 576,
+    "bytes_toclient": 1325,
+    "start": "2025-08-05T00:01:13.962964+0000",
+    "src_ip": "3.131.215.38",
+    "dest_ip": "172.31.14.166",
+    "src_port": 42370,
+    "dest_port": 8080
+  }
+}
+{
+  "timestamp": "2025-08-05T00:01:14.881549+0000",
+  "flow_id": 644274491543643,
+  "in_iface": "enX0",
+  "event_type": "alert",
+  "src_ip": "172.31.14.166",
+  "src_port": 8080,
+  "dest_ip": "3.131.215.38",
+  "dest_port": 42380,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 0,
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2101201,
+    "rev": 12,
+    "signature": "GPL WEB_SERVER 403 Forbidden",
+    "category": "Attempted Information Leak",
+    "severity": 2,
+    "metadata": {
+      "created_at": [
+        "2010_09_23"
+      ],
+      "signature_severity": [
+        "Unknown"
+      ],
+      "updated_at": [
+        "2024_03_08"
+      ]
+    }
+  },
+  "http": {
+    "hostname": "52.221.50.176",
+    "http_port": 8080,
+    "url": "/",
+    "http_user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126.0.0.0 Safari/537.36",
+    "http_content_type": "text/html",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 403,
+    "length": 599
+  },
+  "files": [
+    {
+      "filename": "/",
+      "gaps": false,
+      "state": "CLOSED",
+      "stored": false,
+      "size": 589,
+      "tx_id": 0
+    }
+  ],
+  "app_proto": "http",
+  "direction": "to_client",
+  "flow": {
+    "pkts_toserver": 6,
+    "pkts_toclient": 5,
+    "bytes_toserver": 576,
+    "bytes_toclient": 1325,
+    "start": "2025-08-05T00:01:14.215542+0000",
+    "src_ip": "3.131.215.38",
+    "dest_ip": "172.31.14.166",
+    "src_port": 42380,
+    "dest_port": 8080
+  }
+}
+{
+  "timestamp": "2025-08-05T00:06:56.591768+0000",
+  "flow_id": 8352409443734,
+  "in_iface": "enX0",
+  "event_type": "alert",
+  "src_ip": "196.251.87.187",
+  "src_port": 55609,
+  "dest_ip": "172.31.14.166",
+  "dest_port": 8080,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "metadata": {
+    "flowbits": [
+      "ET.Evil",
+      "ET.DROPIP"
+    ]
+  },
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2400042,
+    "rev": 4385,
+    "signature": "ET DROP Spamhaus DROP Listed Traffic Inbound group 43",
+    "category": "Misc Attack",
+    "severity": 2,
+    "metadata": {
+      "affected_product": [
+        "Any"
+      ],
+      "attack_target": [
+        "Any"
+      ],
+      "created_at": [
+        "2010_12_30"
+      ],
+      "deployment": [
+        "Perimeter"
+      ],
+      "signature_severity": [
+        "Minor"
+      ],
+      "tag": [
+        "Dshield"
+      ],
+      "updated_at": [
+        "2025_06_26"
+      ]
+    }
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 1,
+    "pkts_toclient": 0,
+    "bytes_toserver": 54,
+    "bytes_toclient": 0,
+    "start": "2025-08-05T00:06:56.591768+0000",
+    "src_ip": "196.251.87.187",
+    "dest_ip": "172.31.14.166",
+    "src_port": 55609,
+    "dest_port": 8080
+  }
+}
+{
+  "timestamp": "2025-08-05T00:19:53.274447+0000",
+  "flow_id": 334319375658580,
+  "in_iface": "enX0",
+  "event_type": "alert",
+  "src_ip": "185.242.226.20",
+  "src_port": 41358,
+  "dest_ip": "172.31.14.166",
+  "dest_port": 22,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "metadata": {
+    "flowbits": [
+      "ET.Evil",
+      "ET.DshieldIP"
+    ]
+  },
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2402000,
+    "rev": 7413,
+    "signature": "ET DROP Dshield Block Listed Source group 1",
+    "category": "Misc Attack",
+    "severity": 2,
+    "metadata": {
+      "affected_product": [
+        "Any"
+      ],
+      "attack_target": [
+        "Any"
+      ],
+      "created_at": [
+        "2010_12_30"
+      ],
+      "deployment": [
+        "Perimeter"
+      ],
+      "signature_severity": [
+        "Major"
+      ],
+      "tag": [
+        "Dshield"
+      ],
+      "updated_at": [
+        "2025_06_26"
+      ]
+    }
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 1,
+    "pkts_toclient": 0,
+    "bytes_toserver": 54,
+    "bytes_toclient": 0,
+    "start": "2025-08-05T00:19:53.274447+0000",
+    "src_ip": "185.242.226.20",
+    "dest_ip": "172.31.14.166",
+    "src_port": 41358,
+    "dest_port": 22
+  }
+}
+{
+  "timestamp": "2025-08-05T00:42:27.297592+0000",
+  "flow_id": 996673685842301,
+  "in_iface": "enX0",
+  "event_type": "alert",
+  "src_ip": "20.171.25.216",
+  "src_port": 48700,
+  "dest_ip": "172.31.14.166",
+  "dest_port": 8081,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2403326,
+    "rev": 101293,
+    "signature": "ET CINS Active Threat Intelligence Poor Reputation IP group 27",
+    "category": "Misc Attack",
+    "severity": 2,
+    "metadata": {
+      "affected_product": [
+        "Any"
+      ],
+      "attack_target": [
+        "Any"
+      ],
+      "created_at": [
+        "2013_10_08"
+      ],
+      "deployment": [
+        "Perimeter"
+      ],
+      "signature_severity": [
+        "Major"
+      ],
+      "tag": [
+        "CINS"
+      ],
+      "updated_at": [
+        "2025_06_26"
+      ]
+    }
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 1,
+    "pkts_toclient": 0,
+    "bytes_toserver": 54,
+    "bytes_toclient": 0,
+    "start": "2025-08-05T00:42:27.297592+0000",
+    "src_ip": "20.171.25.216",
+    "dest_ip": "172.31.14.166",
+    "src_port": 48700,
+    "dest_port": 8081
+  }
+}
+{
+  "timestamp": "2025-08-05T00:50:20.491421+0000",
+  "flow_id": 1266216103340418,
+  "in_iface": "enX0",
+  "event_type": "alert",
+  "src_ip": "213.209.143.143",
+  "src_port": 40022,
+  "dest_ip": "172.31.14.166",
+  "dest_port": 8080,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "metadata": {
+    "flowbits": [
+      "ET.Evil",
+      "ET.DROPIP",
+      "ET.DshieldIP"
+    ]
+  },
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2400060,
+    "rev": 4385,
+    "signature": "ET DROP Spamhaus DROP Listed Traffic Inbound group 61",
+    "category": "Misc Attack",
+    "severity": 2,
+    "metadata": {
+      "affected_product": [
+        "Any"
+      ],
+      "attack_target": [
+        "Any"
+      ],
+      "created_at": [
+        "2010_12_30"
+      ],
+      "deployment": [
+        "Perimeter"
+      ],
+      "signature_severity": [
+        "Minor"
+      ],
+      "tag": [
+        "Dshield"
+      ],
+      "updated_at": [
+        "2025_06_26"
+      ]
+    }
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 1,
+    "pkts_toclient": 0,
+    "bytes_toserver": 54,
+    "bytes_toclient": 0,
+    "start": "2025-08-05T00:50:20.491421+0000",
+    "src_ip": "213.209.143.143",
+    "dest_ip": "172.31.14.166",
+    "src_port": 40022,
+    "dest_port": 8080
+  }
+}
+{
+  "timestamp": "2025-08-05T00:50:20.491421+0000",
+  "flow_id": 1266216103340418,
+  "in_iface": "enX0",
+  "event_type": "alert",
+  "src_ip": "213.209.143.143",
+  "src_port": 40022,
+  "dest_ip": "172.31.14.166",
+  "dest_port": 8080,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "metadata": {
+    "flowbits": [
+      "ET.Evil",
+      "ET.DROPIP",
+      "ET.DshieldIP"
+    ]
+  },
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2402000,
+    "rev": 7413,
+    "signature": "ET DROP Dshield Block Listed Source group 1",
+    "category": "Misc Attack",
+    "severity": 2,
+    "metadata": {
+      "affected_product": [
+        "Any"
+      ],
+      "attack_target": [
+        "Any"
+      ],
+      "created_at": [
+        "2010_12_30"
+      ],
+      "deployment": [
+        "Perimeter"
+      ],
+      "signature_severity": [
+        "Major"
+      ],
+      "tag": [
+        "Dshield"
+      ],
+      "updated_at": [
+        "2025_06_26"
+      ]
+    }
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 1,
+    "pkts_toclient": 0,
+    "bytes_toserver": 54,
+    "bytes_toclient": 0,
+    "start": "2025-08-05T00:50:20.491421+0000",
+    "src_ip": "213.209.143.143",
+    "dest_ip": "172.31.14.166",
+    "src_port": 40022,
+    "dest_port": 8080
+  }
+}
+{
+  "timestamp": "2025-08-05T00:59:35.113149+0000",
+  "flow_id": 2174822993447514,
+  "in_iface": "enX0",
+  "event_type": "alert",
+  "src_ip": "206.168.34.112",
+  "src_port": 37728,
+  "dest_ip": "172.31.14.166",
+  "dest_port": 8000,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "metadata": {
+    "flowbits": [
+      "ET.Evil",
+      "ET.DshieldIP"
+    ]
+  },
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2402000,
+    "rev": 7413,
+    "signature": "ET DROP Dshield Block Listed Source group 1",
+    "category": "Misc Attack",
+    "severity": 2,
+    "metadata": {
+      "affected_product": [
+        "Any"
+      ],
+      "attack_target": [
+        "Any"
+      ],
+      "created_at": [
+        "2010_12_30"
+      ],
+      "deployment": [
+        "Perimeter"
+      ],
+      "signature_severity": [
+        "Major"
+      ],
+      "tag": [
+        "Dshield"
+      ],
+      "updated_at": [
+        "2025_06_26"
+      ]
+    }
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 1,
+    "pkts_toclient": 0,
+    "bytes_toserver": 74,
+    "bytes_toclient": 0,
+    "start": "2025-08-05T00:59:35.113149+0000",
+    "src_ip": "206.168.34.112",
+    "dest_ip": "172.31.14.166",
+    "src_port": 37728,
+    "dest_port": 8000
+  }
+}
+{
+  "timestamp": "2025-08-05T01:19:29.091211+0000",
+  "flow_id": 279494380930286,
+  "in_iface": "enX0",
+  "event_type": "alert",
+  "src_ip": "220.95.14.102",
+  "src_port": 42246,
+  "dest_ip": "172.31.14.166",
+  "dest_port": 22,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2001219,
+    "rev": 20,
+    "signature": "ET SCAN Potential SSH Scan",
+    "category": "Attempted Information Leak",
+    "severity": 2,
+    "metadata": {
+      "confidence": [
+        "Medium"
+      ],
+      "created_at": [
+        "2010_07_30"
+      ],
+      "signature_severity": [
+        "Informational"
+      ],
+      "updated_at": [
+        "2019_07_26"
+      ]
+    }
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 2,
+    "pkts_toclient": 1,
+    "bytes_toserver": 148,
+    "bytes_toclient": 74,
+    "start": "2025-08-05T01:19:28.065074+0000",
+    "src_ip": "220.95.14.102",
+    "dest_ip": "172.31.14.166",
+    "src_port": 42246,
+    "dest_port": 22
+  }
+}
+{
+  "timestamp": "2025-08-05T01:21:30.989743+0000",
+  "flow_id": 591743066221877,
+  "in_iface": "enX0",
+  "event_type": "alert",
+  "src_ip": "220.95.14.102",
+  "src_port": 53956,
+  "dest_ip": "172.31.14.166",
+  "dest_port": 22,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2001219,
+    "rev": 20,
+    "signature": "ET SCAN Potential SSH Scan",
+    "category": "Attempted Information Leak",
+    "severity": 2,
+    "metadata": {
+      "confidence": [
+        "Medium"
+      ],
+      "created_at": [
+        "2010_07_30"
+      ],
+      "signature_severity": [
+        "Informational"
+      ],
+      "updated_at": [
+        "2019_07_26"
+      ]
+    }
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 1,
+    "pkts_toclient": 0,
+    "bytes_toserver": 74,
+    "bytes_toclient": 0,
+    "start": "2025-08-05T01:21:30.989743+0000",
+    "src_ip": "220.95.14.102",
+    "dest_ip": "172.31.14.166",
+    "src_port": 53956,
+    "dest_port": 22
+  }
+}
+{
+  "timestamp": "2025-08-05T01:23:51.851516+0000",
+  "flow_id": 214598452211665,
+  "in_iface": "enX0",
+  "event_type": "alert",
+  "src_ip": "220.95.14.102",
+  "src_port": 38334,
+  "dest_ip": "172.31.14.166",
+  "dest_port": 22,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2001219,
+    "rev": 20,
+    "signature": "ET SCAN Potential SSH Scan",
+    "category": "Attempted Information Leak",
+    "severity": 2,
+    "metadata": {
+      "confidence": [
+        "Medium"
+      ],
+      "created_at": [
+        "2010_07_30"
+      ],
+      "signature_severity": [
+        "Informational"
+      ],
+      "updated_at": [
+        "2019_07_26"
+      ]
+    }
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 5,
+    "pkts_toclient": 7,
+    "bytes_toserver": 370,
+    "bytes_toclient": 518,
+    "start": "2025-08-05T01:23:36.312109+0000",
+    "src_ip": "220.95.14.102",
+    "dest_ip": "172.31.14.166",
+    "src_port": 38334,
+    "dest_port": 22
+  }
+}
+{
+  "timestamp": "2025-08-05T01:24:39.048731+0000",
+  "flow_id": 716540773041824,
+  "in_iface": "enX0",
+  "event_type": "alert",
+  "src_ip": "87.106.203.30",
+  "src_port": 60198,
+  "dest_ip": "172.31.14.166",
+  "dest_port": 22,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2001219,
+    "rev": 20,
+    "signature": "ET SCAN Potential SSH Scan",
+    "category": "Attempted Information Leak",
+    "severity": 2,
+    "metadata": {
+      "confidence": [
+        "Medium"
+      ],
+      "created_at": [
+        "2010_07_30"
+      ],
+      "signature_severity": [
+        "Informational"
+      ],
+      "updated_at": [
+        "2019_07_26"
+      ]
+    }
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 5,
+    "pkts_toclient": 4,
+    "bytes_toserver": 370,
+    "bytes_toclient": 296,
+    "start": "2025-08-05T01:24:34.953264+0000",
+    "src_ip": "87.106.203.30",
+    "dest_ip": "172.31.14.166",
+    "src_port": 60198,
+    "dest_port": 22
+  }
+}
+{
+  "timestamp": "2025-08-05T01:25:48.011443+0000",
+  "flow_id": 1262518531510685,
+  "in_iface": "enX0",
+  "event_type": "alert",
+  "src_ip": "220.95.14.102",
+  "src_port": 52732,
+  "dest_ip": "172.31.14.166",
+  "dest_port": 22,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2001219,
+    "rev": 20,
+    "signature": "ET SCAN Potential SSH Scan",
+    "category": "Attempted Information Leak",
+    "severity": 2,
+    "metadata": {
+      "confidence": [
+        "Medium"
+      ],
+      "created_at": [
+        "2010_07_30"
+      ],
+      "signature_severity": [
+        "Informational"
+      ],
+      "updated_at": [
+        "2019_07_26"
+      ]
+    }
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 4,
+    "pkts_toclient": 5,
+    "bytes_toserver": 296,
+    "bytes_toclient": 370,
+    "start": "2025-08-05T01:25:40.752705+0000",
+    "src_ip": "220.95.14.102",
+    "dest_ip": "172.31.14.166",
+    "src_port": 52732,
+    "dest_port": 22
+  }
+}
+{
+  "timestamp": "2025-08-05T01:27:51.211266+0000",
+  "flow_id": 214897759280619,
+  "in_iface": "enX0",
+  "event_type": "alert",
+  "src_ip": "220.95.14.102",
+  "src_port": 45344,
+  "dest_ip": "172.31.14.166",
+  "dest_port": 22,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2001219,
+    "rev": 20,
+    "signature": "ET SCAN Potential SSH Scan",
+    "category": "Attempted Information Leak",
+    "severity": 2,
+    "metadata": {
+      "confidence": [
+        "Medium"
+      ],
+      "created_at": [
+        "2010_07_30"
+      ],
+      "signature_severity": [
+        "Informational"
+      ],
+      "updated_at": [
+        "2019_07_26"
+      ]
+    }
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 4,
+    "pkts_toclient": 5,
+    "bytes_toserver": 296,
+    "bytes_toclient": 370,
+    "start": "2025-08-05T01:27:44.050034+0000",
+    "src_ip": "220.95.14.102",
+    "dest_ip": "172.31.14.166",
+    "src_port": 45344,
+    "dest_port": 22
+  }
+}
+{
+  "timestamp": "2025-08-05T01:43:33.551881+0000",
+  "flow_id": 1580648523313957,
+  "in_iface": "enX0",
+  "event_type": "alert",
+  "src_ip": "172.31.14.166",
+  "src_port": 8080,
+  "dest_ip": "151.192.70.122",
+  "dest_port": 64002,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 0,
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2101201,
+    "rev": 12,
+    "signature": "GPL WEB_SERVER 403 Forbidden",
+    "category": "Attempted Information Leak",
+    "severity": 2,
+    "metadata": {
+      "created_at": [
+        "2010_09_23"
+      ],
+      "signature_severity": [
+        "Unknown"
+      ],
+      "updated_at": [
+        "2024_03_08"
+      ]
+    }
+  },
+  "http": {
+    "hostname": "52.221.50.176",
+    "http_port": 8080,
+    "url": "/job/respiree-hybrid-frontend/",
+    "http_user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+    "http_content_type": "text/html",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 403,
+    "length": 665
+  },
+  "files": [
+    {
+      "filename": "/job/respiree-hybrid-frontend/",
+      "gaps": false,
+      "state": "CLOSED",
+      "stored": false,
+      "size": 655,
+      "tx_id": 0
+    }
+  ],
+  "app_proto": "http",
+  "direction": "to_client",
+  "flow": {
+    "pkts_toserver": 5,
+    "pkts_toclient": 5,
+    "bytes_toserver": 2439,
+    "bytes_toclient": 2179,
+    "start": "2025-08-05T01:43:33.236951+0000",
+    "src_ip": "151.192.70.122",
+    "dest_ip": "172.31.14.166",
+    "src_port": 64002,
+    "dest_port": 8080
+  }
+}
+{
+  "timestamp": "2025-08-05T01:51:17.874669+0000",
+  "flow_id": 1504878512136635,
+  "in_iface": "enX0",
+  "event_type": "alert",
+  "src_ip": "205.210.31.177",
+  "src_port": 50190,
+  "dest_ip": "172.31.14.166",
+  "dest_port": 8000,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "metadata": {
+    "flowbits": [
+      "ET.Evil",
+      "ET.DshieldIP"
+    ]
+  },
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2402000,
+    "rev": 7413,
+    "signature": "ET DROP Dshield Block Listed Source group 1",
+    "category": "Misc Attack",
+    "severity": 2,
+    "metadata": {
+      "affected_product": [
+        "Any"
+      ],
+      "attack_target": [
+        "Any"
+      ],
+      "created_at": [
+        "2010_12_30"
+      ],
+      "deployment": [
+        "Perimeter"
+      ],
+      "signature_severity": [
+        "Major"
+      ],
+      "tag": [
+        "Dshield"
+      ],
+      "updated_at": [
+        "2025_06_26"
+      ]
+    }
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 1,
+    "pkts_toclient": 0,
+    "bytes_toserver": 58,
+    "bytes_toclient": 0,
+    "start": "2025-08-05T01:51:17.874669+0000",
+    "src_ip": "205.210.31.177",
+    "dest_ip": "172.31.14.166",
+    "src_port": 50190,
+    "dest_port": 8000
+  }
+}
+{
+  "timestamp": "2025-08-05T01:53:13.868905+0000",
+  "flow_id": 287290394456756,
+  "in_iface": "enX0",
+  "event_type": "alert",
+  "src_ip": "172.31.14.166",
+  "src_port": 8080,
+  "dest_ip": "185.91.127.107",
+  "dest_port": 54446,
+  "proto": "TCP",
+  "pkt_src": "stream (flow timeout)",
+  "tx_id": 0,
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2101201,
+    "rev": 12,
+    "signature": "GPL WEB_SERVER 403 Forbidden",
+    "category": "Attempted Information Leak",
+    "severity": 2,
+    "metadata": {
+      "created_at": [
+        "2010_09_23"
+      ],
+      "signature_severity": [
+        "Unknown"
+      ],
+      "updated_at": [
+        "2024_03_08"
+      ]
+    }
+  },
+  "http": {
+    "hostname": "api.ip.pn",
+    "http_port": 443,
+    "url": "api.ip.pn:443",
+    "http_user_agent": "Go-http-client/1.1",
+    "http_content_type": "text/html",
+    "http_method": "CONNECT",
+    "protocol": "HTTP/1.1",
+    "status": 403,
+    "length": 599
+  },
+  "app_proto": "http",
+  "direction": "to_client",
+  "flow": {
+    "pkts_toserver": 6,
+    "pkts_toclient": 4,
+    "bytes_toserver": 479,
+    "bytes_toclient": 1259,
+    "start": "2025-08-05T01:52:09.197962+0000",
+    "src_ip": "185.91.127.107",
+    "dest_ip": "172.31.14.166",
+    "src_port": 54446,
+    "dest_port": 8080
+  }
+}
+{
+  "timestamp": "2025-08-05T01:53:33.840364+0000",
+  "flow_id": 1634668095247914,
+  "in_iface": "enX0",
+  "event_type": "alert",
+  "src_ip": "172.31.14.166",
+  "src_port": 58904,
+  "dest_ip": "169.254.169.254",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "metadata": {
+    "flowbits": [
+      "http.dottedquadhost"
+    ]
+  },
+  "tx_id": 0,
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2034567,
+    "rev": 1,
+    "signature": "ET HUNTING curl User-Agent to Dotted Quad",
+    "category": "Potentially Bad Traffic",
+    "severity": 2,
+    "metadata": {
+      "attack_target": [
+        "Client_Endpoint"
+      ],
+      "confidence": [
+        "Medium"
+      ],
+      "created_at": [
+        "2021_12_01"
+      ],
+      "deployment": [
+        "Perimeter"
+      ],
+      "signature_severity": [
+        "Informational"
+      ],
+      "updated_at": [
+        "2021_12_01"
+      ]
+    }
+  },
+  "http": {
+    "hostname": "169.254.169.254",
+    "url": "/latest/api/token",
+    "http_user_agent": "curl/8.5.0",
+    "http_content_type": "text/plain",
+    "http_method": "PUT",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 56
+  },
+  "app_proto": "http",
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 4,
+    "pkts_toclient": 3,
+    "bytes_toserver": 409,
+    "bytes_toclient": 441,
+    "start": "2025-08-05T01:53:33.839352+0000",
+    "src_ip": "172.31.14.166",
+    "dest_ip": "169.254.169.254",
+    "src_port": 58904,
+    "dest_port": 80
+  }
+}
+{
+  "timestamp": "2025-08-05T01:53:33.849297+0000",
+  "flow_id": 1672868979506680,
+  "in_iface": "enX0",
+  "event_type": "alert",
+  "src_ip": "172.31.14.166",
+  "src_port": 58906,
+  "dest_ip": "169.254.169.254",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "metadata": {
+    "flowbits": [
+      "http.dottedquadhost"
+    ]
+  },
+  "tx_id": 0,
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2034567,
+    "rev": 1,
+    "signature": "ET HUNTING curl User-Agent to Dotted Quad",
+    "category": "Potentially Bad Traffic",
+    "severity": 2,
+    "metadata": {
+      "attack_target": [
+        "Client_Endpoint"
+      ],
+      "confidence": [
+        "Medium"
+      ],
+      "created_at": [
+        "2021_12_01"
+      ],
+      "deployment": [
+        "Perimeter"
+      ],
+      "signature_severity": [
+        "Informational"
+      ],
+      "updated_at": [
+        "2021_12_01"
+      ]
+    }
+  },
+  "http": {
+    "hostname": "169.254.169.254",
+    "url": "/latest/meta-data/tags/instance",
+    "http_user_agent": "curl/8.5.0",
+    "http_content_type": "text/html",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 404,
+    "length": 337
+  },
+  "app_proto": "http",
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 4,
+    "pkts_toclient": 4,
+    "bytes_toserver": 464,
+    "bytes_toclient": 795,
+    "start": "2025-08-05T01:53:33.848247+0000",
+    "src_ip": "172.31.14.166",
+    "dest_ip": "169.254.169.254",
+    "src_port": 58906,
+    "dest_port": 80
+  }
+}
+{
+  "timestamp": "2025-08-05T02:06:24.599763+0000",
+  "flow_id": 42689850479032,
+  "in_iface": "enX0",
+  "event_type": "alert",
+  "src_ip": "83.222.190.206",
+  "src_port": 40374,
+  "dest_ip": "172.31.14.166",
+  "dest_port": 8080,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "metadata": {
+    "flowbits": [
+      "ET.Evil",
+      "ET.DROPIP"
+    ]
+  },
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2400009,
+    "rev": 4385,
+    "signature": "ET DROP Spamhaus DROP Listed Traffic Inbound group 10",
+    "category": "Misc Attack",
+    "severity": 2,
+    "metadata": {
+      "affected_product": [
+        "Any"
+      ],
+      "attack_target": [
+        "Any"
+      ],
+      "created_at": [
+        "2010_12_30"
+      ],
+      "deployment": [
+        "Perimeter"
+      ],
+      "signature_severity": [
+        "Minor"
+      ],
+      "tag": [
+        "Dshield"
+      ],
+      "updated_at": [
+        "2025_06_26"
+      ]
+    }
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 1,
+    "pkts_toclient": 0,
+    "bytes_toserver": 54,
+    "bytes_toclient": 0,
+    "start": "2025-08-05T02:06:24.599763+0000",
+    "src_ip": "83.222.190.206",
+    "dest_ip": "172.31.14.166",
+    "src_port": 40374,
+    "dest_port": 8080
+  }
+}
+{
+  "timestamp": "2025-08-05T02:06:33.689553+0000",
+  "flow_id": 428333931684275,
+  "in_iface": "enX0",
+  "event_type": "alert",
+  "src_ip": "205.210.31.129",
+  "src_port": 56176,
+  "dest_ip": "172.31.14.166",
+  "dest_port": 8080,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "metadata": {
+    "flowbits": [
+      "ET.Evil",
+      "ET.DshieldIP"
+    ]
+  },
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2402000,
+    "rev": 7413,
+    "signature": "ET DROP Dshield Block Listed Source group 1",
+    "category": "Misc Attack",
+    "severity": 2,
+    "metadata": {
+      "affected_product": [
+        "Any"
+      ],
+      "attack_target": [
+        "Any"
+      ],
+      "created_at": [
+        "2010_12_30"
+      ],
+      "deployment": [
+        "Perimeter"
+      ],
+      "signature_severity": [
+        "Major"
+      ],
+      "tag": [
+        "Dshield"
+      ],
+      "updated_at": [
+        "2025_06_26"
+      ]
+    }
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 1,
+    "pkts_toclient": 0,
+    "bytes_toserver": 58,
+    "bytes_toclient": 0,
+    "start": "2025-08-05T02:06:33.689553+0000",
+    "src_ip": "205.210.31.129",
+    "dest_ip": "172.31.14.166",
+    "src_port": 56176,
+    "dest_port": 8080
+  }
+}
+{
+  "timestamp": "2025-08-05T02:07:55.568058+0000",
+  "flow_id": 1032418601619940,
+  "in_iface": "enX0",
+  "event_type": "alert",
+  "src_ip": "20.169.105.81",
+  "src_port": 56787,
+  "dest_ip": "172.31.14.166",
+  "dest_port": 8081,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2403324,
+    "rev": 101293,
+    "signature": "ET CINS Active Threat Intelligence Poor Reputation IP group 25",
+    "category": "Misc Attack",
+    "severity": 2,
+    "metadata": {
+      "affected_product": [
+        "Any"
+      ],
+      "attack_target": [
+        "Any"
+      ],
+      "created_at": [
+        "2013_10_08"
+      ],
+      "deployment": [
+        "Perimeter"
+      ],
+      "signature_severity": [
+        "Major"
+      ],
+      "tag": [
+        "CINS"
+      ],
+      "updated_at": [
+        "2025_06_26"
+      ]
+    }
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 1,
+    "pkts_toclient": 0,
+    "bytes_toserver": 54,
+    "bytes_toclient": 0,
+    "start": "2025-08-05T02:07:55.568058+0000",
+    "src_ip": "20.169.105.81",
+    "dest_ip": "172.31.14.166",
+    "src_port": 56787,
+    "dest_port": 8081
+  }
+}
+{
+  "timestamp": "2025-08-05T02:09:53.156695+0000",
+  "flow_id": 391526486813340,
+  "in_iface": "enX0",
+  "event_type": "alert",
+  "src_ip": "206.168.34.175",
+  "src_port": 43070,
+  "dest_ip": "172.31.14.166",
+  "dest_port": 8000,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "metadata": {
+    "flowbits": [
+      "ET.Evil",
+      "ET.DshieldIP"
+    ]
+  },
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2402000,
+    "rev": 7413,
+    "signature": "ET DROP Dshield Block Listed Source group 1",
+    "category": "Misc Attack",
+    "severity": 2,
+    "metadata": {
+      "affected_product": [
+        "Any"
+      ],
+      "attack_target": [
+        "Any"
+      ],
+      "created_at": [
+        "2010_12_30"
+      ],
+      "deployment": [
+        "Perimeter"
+      ],
+      "signature_severity": [
+        "Major"
+      ],
+      "tag": [
+        "Dshield"
+      ],
+      "updated_at": [
+        "2025_06_26"
+      ]
+    }
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 1,
+    "pkts_toclient": 0,
+    "bytes_toserver": 74,
+    "bytes_toclient": 0,
+    "start": "2025-08-05T02:09:53.156695+0000",
+    "src_ip": "206.168.34.175",
+    "dest_ip": "172.31.14.166",
+    "src_port": 43070,
+    "dest_port": 8000
+  }
+}
+{
+  "timestamp": "2025-08-05T02:29:00.949126+0000",
+  "flow_id": 1261716882816801,
+  "in_iface": "enX0",
+  "event_type": "alert",
+  "src_ip": "198.235.24.142",
+  "src_port": 49861,
+  "dest_ip": "172.31.14.166",
+  "dest_port": 8080,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "metadata": {
+    "flowbits": [
+      "ET.Evil",
+      "ET.DshieldIP"
+    ]
+  },
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2402000,
+    "rev": 7413,
+    "signature": "ET DROP Dshield Block Listed Source group 1",
+    "category": "Misc Attack",
+    "severity": 2,
+    "metadata": {
+      "affected_product": [
+        "Any"
+      ],
+      "attack_target": [
+        "Any"
+      ],
+      "created_at": [
+        "2010_12_30"
+      ],
+      "deployment": [
+        "Perimeter"
+      ],
+      "signature_severity": [
+        "Major"
+      ],
+      "tag": [
+        "Dshield"
+      ],
+      "updated_at": [
+        "2025_06_26"
+      ]
+    }
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 1,
+    "pkts_toclient": 0,
+    "bytes_toserver": 58,
+    "bytes_toclient": 0,
+    "start": "2025-08-05T02:29:00.949126+0000",
+    "src_ip": "198.235.24.142",
+    "dest_ip": "172.31.14.166",
+    "src_port": 49861,
+    "dest_port": 8080
+  }
+}
+{
+  "timestamp": "2025-08-05T02:36:25.655238+0000",
+  "flow_id": 562426072796325,
+  "in_iface": "enX0",
+  "event_type": "alert",
+  "src_ip": "198.235.24.163",
+  "src_port": 55020,
+  "dest_ip": "172.31.14.166",
+  "dest_port": 8000,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "metadata": {
+    "flowbits": [
+      "ET.Evil",
+      "ET.DshieldIP"
+    ]
+  },
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2402000,
+    "rev": 7413,
+    "signature": "ET DROP Dshield Block Listed Source group 1",
+    "category": "Misc Attack",
+    "severity": 2,
+    "metadata": {
+      "affected_product": [
+        "Any"
+      ],
+      "attack_target": [
+        "Any"
+      ],
+      "created_at": [
+        "2010_12_30"
+      ],
+      "deployment": [
+        "Perimeter"
+      ],
+      "signature_severity": [
+        "Major"
+      ],
+      "tag": [
+        "Dshield"
+      ],
+      "updated_at": [
+        "2025_06_26"
+      ]
+    }
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 1,
+    "pkts_toclient": 0,
+    "bytes_toserver": 58,
+    "bytes_toclient": 0,
+    "start": "2025-08-05T02:36:25.655238+0000",
+    "src_ip": "198.235.24.163",
+    "dest_ip": "172.31.14.166",
+    "src_port": 55020,
+    "dest_port": 8000
+  }
+}
+{
+  "timestamp": "2025-08-05T02:36:47.460712+0000",
+  "flow_id": 1978743881801205,
+  "in_iface": "enX0",
+  "event_type": "alert",
+  "src_ip": "93.152.230.140",
+  "src_port": 40616,
+  "dest_ip": "172.31.14.166",
+  "dest_port": 22,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "metadata": {
+    "flowbits": [
+      "ET.Evil",
+      "ET.DshieldIP"
+    ]
+  },
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2402000,
+    "rev": 7413,
+    "signature": "ET DROP Dshield Block Listed Source group 1",
+    "category": "Misc Attack",
+    "severity": 2,
+    "metadata": {
+      "affected_product": [
+        "Any"
+      ],
+      "attack_target": [
+        "Any"
+      ],
+      "created_at": [
+        "2010_12_30"
+      ],
+      "deployment": [
+        "Perimeter"
+      ],
+      "signature_severity": [
+        "Major"
+      ],
+      "tag": [
+        "Dshield"
+      ],
+      "updated_at": [
+        "2025_06_26"
+      ]
+    }
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 1,
+    "pkts_toclient": 0,
+    "bytes_toserver": 58,
+    "bytes_toclient": 0,
+    "start": "2025-08-05T02:36:47.460712+0000",
+    "src_ip": "93.152.230.140",
+    "dest_ip": "172.31.14.166",
+    "src_port": 40616,
+    "dest_port": 22
+  }
+}
+{
+  "timestamp": "2025-08-05T02:38:21.141474+0000",
+  "flow_id": 1452053900429533,
+  "in_iface": "enX0",
+  "event_type": "alert",
+  "src_ip": "198.235.24.128",
+  "src_port": 54515,
+  "dest_ip": "172.31.14.166",
+  "dest_port": 8081,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "metadata": {
+    "flowbits": [
+      "ET.Evil",
+      "ET.DshieldIP"
+    ]
+  },
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2402000,
+    "rev": 7413,
+    "signature": "ET DROP Dshield Block Listed Source group 1",
+    "category": "Misc Attack",
+    "severity": 2,
+    "metadata": {
+      "affected_product": [
+        "Any"
+      ],
+      "attack_target": [
+        "Any"
+      ],
+      "created_at": [
+        "2010_12_30"
+      ],
+      "deployment": [
+        "Perimeter"
+      ],
+      "signature_severity": [
+        "Major"
+      ],
+      "tag": [
+        "Dshield"
+      ],
+      "updated_at": [
+        "2025_06_26"
+      ]
+    }
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 1,
+    "pkts_toclient": 0,
+    "bytes_toserver": 58,
+    "bytes_toclient": 0,
+    "start": "2025-08-05T02:38:21.141474+0000",
+    "src_ip": "198.235.24.128",
+    "dest_ip": "172.31.14.166",
+    "src_port": 54515,
+    "dest_port": 8081
+  }
+}
+{
+  "timestamp": "2025-08-05T02:43:58.323932+0000",
+  "flow_id": 1954229272345478,
+  "in_iface": "enX0",
+  "event_type": "alert",
+  "src_ip": "198.235.24.99",
+  "src_port": 50332,
+  "dest_ip": "172.31.14.166",
+  "dest_port": 8080,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "metadata": {
+    "flowbits": [
+      "ET.Evil",
+      "ET.DshieldIP"
+    ]
+  },
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2402000,
+    "rev": 7413,
+    "signature": "ET DROP Dshield Block Listed Source group 1",
+    "category": "Misc Attack",
+    "severity": 2,
+    "metadata": {
+      "affected_product": [
+        "Any"
+      ],
+      "attack_target": [
+        "Any"
+      ],
+      "created_at": [
+        "2010_12_30"
+      ],
+      "deployment": [
+        "Perimeter"
+      ],
+      "signature_severity": [
+        "Major"
+      ],
+      "tag": [
+        "Dshield"
+      ],
+      "updated_at": [
+        "2025_06_26"
+      ]
+    }
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 1,
+    "pkts_toclient": 0,
+    "bytes_toserver": 58,
+    "bytes_toclient": 0,
+    "start": "2025-08-05T02:43:58.323932+0000",
+    "src_ip": "198.235.24.99",
+    "dest_ip": "172.31.14.166",
+    "src_port": 50332,
+    "dest_port": 8080
+  }
+}
+{
+  "timestamp": "2025-08-05T03:04:59.860133+0000",
+  "flow_id": 2145547246722925,
+  "in_iface": "enX0",
+  "event_type": "alert",
+  "src_ip": "87.106.203.30",
+  "src_port": 57790,
+  "dest_ip": "172.31.14.166",
+  "dest_port": 22,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2001219,
+    "rev": 20,
+    "signature": "ET SCAN Potential SSH Scan",
+    "category": "Attempted Information Leak",
+    "severity": 2,
+    "metadata": {
+      "confidence": [
+        "Medium"
+      ],
+      "created_at": [
+        "2010_07_30"
+      ],
+      "signature_severity": [
+        "Informational"
+      ],
+      "updated_at": [
+        "2019_07_26"
+      ]
+    }
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 5,
+    "pkts_toclient": 4,
+    "bytes_toserver": 370,
+    "bytes_toclient": 296,
+    "start": "2025-08-05T03:04:55.761693+0000",
+    "src_ip": "87.106.203.30",
+    "dest_ip": "172.31.14.166",
+    "src_port": 57790,
+    "dest_port": 22
+  }
+}
+{
+  "timestamp": "2025-08-05T03:09:10.044588+0000",
+  "flow_id": 1880355258220177,
+  "in_iface": "enX0",
+  "event_type": "alert",
+  "src_ip": "176.65.148.240",
+  "src_port": 37009,
+  "dest_ip": "172.31.14.166",
+  "dest_port": 22,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "metadata": {
+    "flowbits": [
+      "ET.Evil",
+      "ET.DROPIP",
+      "ET.DshieldIP"
+    ]
+  },
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2400032,
+    "rev": 4385,
+    "signature": "ET DROP Spamhaus DROP Listed Traffic Inbound group 33",
+    "category": "Misc Attack",
+    "severity": 2,
+    "metadata": {
+      "affected_product": [
+        "Any"
+      ],
+      "attack_target": [
+        "Any"
+      ],
+      "created_at": [
+        "2010_12_30"
+      ],
+      "deployment": [
+        "Perimeter"
+      ],
+      "signature_severity": [
+        "Minor"
+      ],
+      "tag": [
+        "Dshield"
+      ],
+      "updated_at": [
+        "2025_06_26"
+      ]
+    }
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 1,
+    "pkts_toclient": 0,
+    "bytes_toserver": 54,
+    "bytes_toclient": 0,
+    "start": "2025-08-05T03:09:10.044588+0000",
+    "src_ip": "176.65.148.240",
+    "dest_ip": "172.31.14.166",
+    "src_port": 37009,
+    "dest_port": 22
+  }
+}
+{
+  "timestamp": "2025-08-05T03:09:10.044588+0000",
+  "flow_id": 1880355258220177,
+  "in_iface": "enX0",
+  "event_type": "alert",
+  "src_ip": "176.65.148.240",
+  "src_port": 37009,
+  "dest_ip": "172.31.14.166",
+  "dest_port": 22,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "metadata": {
+    "flowbits": [
+      "ET.Evil",
+      "ET.DROPIP",
+      "ET.DshieldIP"
+    ]
+  },
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2402000,
+    "rev": 7413,
+    "signature": "ET DROP Dshield Block Listed Source group 1",
+    "category": "Misc Attack",
+    "severity": 2,
+    "metadata": {
+      "affected_product": [
+        "Any"
+      ],
+      "attack_target": [
+        "Any"
+      ],
+      "created_at": [
+        "2010_12_30"
+      ],
+      "deployment": [
+        "Perimeter"
+      ],
+      "signature_severity": [
+        "Major"
+      ],
+      "tag": [
+        "Dshield"
+      ],
+      "updated_at": [
+        "2025_06_26"
+      ]
+    }
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 1,
+    "pkts_toclient": 0,
+    "bytes_toserver": 54,
+    "bytes_toclient": 0,
+    "start": "2025-08-05T03:09:10.044588+0000",
+    "src_ip": "176.65.148.240",
+    "dest_ip": "172.31.14.166",
+    "src_port": 37009,
+    "dest_port": 22
+  }
+}
+{
+  "timestamp": "2025-08-05T03:25:26.962189+0000",
+  "flow_id": 1918436452250107,
+  "in_iface": "enX0",
+  "event_type": "alert",
+  "src_ip": "172.31.14.166",
+  "src_port": 8080,
+  "dest_ip": "151.192.70.122",
+  "dest_port": 55114,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 0,
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2101201,
+    "rev": 12,
+    "signature": "GPL WEB_SERVER 403 Forbidden",
+    "category": "Attempted Information Leak",
+    "severity": 2,
+    "metadata": {
+      "created_at": [
+        "2010_09_23"
+      ],
+      "signature_severity": [
+        "Unknown"
+      ],
+      "updated_at": [
+        "2024_03_08"
+      ]
+    }
+  },
+  "http": {
+    "hostname": "52.221.50.176",
+    "http_port": 8080,
+    "url": "/job/respiree-hybrid-frontend/",
+    "http_user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+    "http_content_type": "text/html",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 403,
+    "length": 665
+  },
+  "files": [
+    {
+      "filename": "/job/respiree-hybrid-frontend/",
+      "gaps": false,
+      "state": "CLOSED",
+      "stored": false,
+      "size": 655,
+      "tx_id": 0
+    }
+  ],
+  "app_proto": "http",
+  "direction": "to_client",
+  "flow": {
+    "pkts_toserver": 5,
+    "pkts_toclient": 5,
+    "bytes_toserver": 2438,
+    "bytes_toclient": 2179,
+    "start": "2025-08-05T03:25:26.643278+0000",
+    "src_ip": "151.192.70.122",
+    "dest_ip": "172.31.14.166",
+    "src_port": 55114,
+    "dest_port": 8080
+  }
+}

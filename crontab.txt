@@ -1,0 +1,1 @@
+0 2 * * * /var/log/suricata/alerts_by_severity/update_severity_logs.sh >> /var/log/suricata/alerts_by_severity/cron_output.log 2>&1

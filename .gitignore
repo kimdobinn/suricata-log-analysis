@@ -1,0 +1,11 @@
+*.log
+*.gz
+*.pcap
+*.pid
+*.sock
+*.swp
+*.bak
+*.tar
+__pycache__/
+*.pyc
+.env

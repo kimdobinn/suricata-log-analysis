@@ -1,0 +1,10 @@
+/var/log/suricata/fast.log
+/var/log/suricata/stats.log {
+    daily
+    size 100M
+    rotate 7
+    compress
+    missingok
+    notifempty
+    copytruncate
+}
