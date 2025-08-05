@@ -1,0 +1,39 @@
+[
+  {
+    "timestamp": "2025-08-05T00:01:13.962964+0000",
+    "event_type": "alert",
+    "src_ip": "SRC_IP",
+    "src_port": "SRC_PORT",
+    "dest_ip": "DEST_IP",
+    "dest_port": "DEST_PORT",
+    "proto": "TCP",
+    "alert": {
+      "signature": "ET CINS Poor Reputation IP group",
+      "category": "Misc Attack",
+      "severity": 2
+    },
+    "http": {
+      "http_user_agent": "REDACTED_AGENT",
+      "status": 403
+    },
+    "flow": {
+      "bytes_toserver": "REDACTED",
+      "bytes_toclient": "REDACTED"
+    }
+  },
+  {
+    "timestamp": "2025-08-05T00:01:14.421213+0000",
+    "event_type": "alert",
+    "src_ip": "SRC_IP",
+    "dest_ip": "DEST_IP",
+    "alert": {
+      "signature": "GPL WEB_SERVER 403 Forbidden",
+      "category": "Information Leak",
+      "severity": 2
+    },
+    "http": {
+      "url": "/REDACTED",
+      "status": 403
+    }
+  }
+]

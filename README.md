@@ -24,8 +24,10 @@ suricata-log-management-and-automation/
 │   ├── severity_1_alerts.json        # Suricata alerts with severity 1
 │   ├── severity_2_alerts.json        # Suricata alerts with severity 2
 │   └── update_severity_logs.sh       # Bash script to regenerate both files
+│   └── cron_output.log               # Keeps log of cron actions
 ├── logrotate/
-│   └── suricata-faststats            # Logrotate config for fast.log and stats.log
+│   └── suricata-evejson              # Logrotate config for eve.json            
+    └── suricata-faststats            # Logrotate config for fast.log and stats.log
 ├── crontab.txt                       # Crontab entry for daily automation
 ├── README.md                         # Project documentation (this file)
 ```
@@ -103,8 +105,7 @@ jq 'select(.event_type == "alert") | {
 - Focused entirely on **shell-native tooling** — no Python, no pipelines.
 - Example of applying **sysadmin**, **security**, and **automation** practices effectively.
 - Great for building operational awareness and cloud security posture monitoring.
-
----
+- All sample logs provided in this repository have been sanitized to remove sensitive IP addresses, hostnames, ports, and internal identifiers. These examples are purely illustrative and safe for public sharing.
 
 ## Author
 

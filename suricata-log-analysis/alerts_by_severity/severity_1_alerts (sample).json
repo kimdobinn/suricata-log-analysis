@@ -1,0 +1,36 @@
+[
+  {
+    "timestamp": "2025-08-05T00:01:14.421213+0000",
+    "src_ip": "SRC_IP",
+    "src_port": 8080,
+    "dest_ip": "DEST_IP",
+    "dest_port": 42370,
+    "proto": "TCP",
+    "event_type": "alert",
+    "alert": {
+      "signature": "ET WEB_SERVER Possible HTTP 403 XSS Attempt (Local Source)",
+      "category": "Web Application Attack",
+      "severity": 1
+    },
+    "http": {
+      "url": "/REDACTED_PATH/",
+      "http_user_agent": "Mozilla/5.0 (Macintosh...)",
+      "status": 403
+    }
+  },
+  {
+    "timestamp": "2025-08-05T01:43:33.551881+0000",
+    "src_ip": "SRC_IP",
+    "dest_ip": "DEST_IP",
+    "event_type": "alert",
+    "alert": {
+      "signature": "ET WEB_SERVER Possible HTTP 403 XSS Attempt (Local Source)",
+      "category": "Web Application Attack",
+      "severity": 1
+    },
+    "http": {
+      "url": "/REDACTED_PATH/job/xyz/",
+      "status": 403
+    }
+  }
+]
