@@ -1,6 +1,6 @@
 # Suricata Log Management & Automation
 
-Fully automating making logs remain manageable and filtering security-relevant alerts by severity via:
+Fully automating logs management and filtering security-relevant alerts by severity via:
 
 - setting up log rotation
 - alert filtering
