@@ -1,7 +1,11 @@
 # Suricata Log Management & Automation
 
-Setting up log rotation, alert filtering, and automation for Suricata IDS on a Linux production server. 
-Fully automating making logs remain manageable and filtering security-relevant alerts by severity.
+Fully automating making logs remain manageable and filtering security-relevant alerts by severity via:
+
+- setting up log rotation
+- alert filtering
+- automation for Suricata IDS on a Linux production server
+
 
 ---
 
