@@ -1,6 +1,7 @@
 # Suricata Log Management & Automation
 
-This repository documents how I set up log rotation, alert filtering, and automation for Suricata IDS on a Linux production server. The goal was to ensure logs remain manageable, security-relevant alerts are filtered by severity, and the entire process is automated daily without human intervention.
+Setting up log rotation, alert filtering, and automation for Suricata IDS on a Linux production server. 
+Fully automating making logs remain manageable and filtering security-relevant alerts by severity.
 
 ---
 
